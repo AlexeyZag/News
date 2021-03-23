@@ -12,7 +12,21 @@ from django.http import HttpResponse
 from django.utils import timezone, dateformat
 import pytz #  импортируем стандартный модуль для работы с часовыми поясами
 from datetime import datetime
-from News import settings
+from django.shortcuts import render
+from rest_framework import viewsets
+from rest_framework import permissions
+
+from .serializers import *
+
+
+class PostViewset(viewsets.ModelViewSet):
+   queryset = Post.objects.all()
+   serializer_class = PostSerializer
+
+
+class CommentViewset(viewsets.ModelViewSet):
+   queryset = Comment.objects.all()
+   serializer_class = CommentSerializer
 
 class AddComment(CreateView):
     template_name = 'add_comment.html'

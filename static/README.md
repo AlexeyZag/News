@@ -1,29 +1,29 @@
-# [Start Bootstrap - Bare](https://startbootstrap.com/template/bare/)
+# [Start Bootstrap - Blog Post](https://startbootstrap.com/template/blog-post/)
 
-[Bare](https://startbootstrap.com/template/bare/) is a bare HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
+[Blog Post](https://startbootstrap.com/template/blog-post/) is a basic blog post HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
 ## Preview
 
-[![Bare Preview](https://assets.startbootstrap.com/img/screenshots/templates/bare.png)](https://startbootstrap.github.io/startbootstrap-bare/)
+[![Blog Post Preview](https://assets.startbootstrap.com/img/screenshots/templates/blog-post.png)](https://startbootstrap.github.io/startbootstrap-blog-post/)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-bare/)**
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-blog-post/)**
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-bare/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-bare.svg)](https://www.npmjs.com/package/startbootstrap-bare)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-bare.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-bare)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-bare/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-bare)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-bare/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-bare?type=dev)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-blog-post/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-blog-post.svg)](https://www.npmjs.com/package/startbootstrap-blog-post)
+[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-blog-post.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-blog-post)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-blog-post/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-blog-post)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-blog-post/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-blog-post?type=dev)
 
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template/bare/)
-* Install via npm: `npm i startbootstrap-bare`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-bare.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-bare)
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template/blog-post/)
+* Install via npm: `npm i startbootstrap-blog-post`
+* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-blog-post.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-blog-post)
 
 ## Usage
 
@@ -39,7 +39,7 @@ You must have npm and Gulp installed globally on your machine in order to use th
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-bare/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/template/bare/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-blog-post/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/template/blog-post/).
 
 ## About
 
@@ -58,4 +58,4 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 
 ## Copyright and License
 
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE) license.
+Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-blog-post/blob/gh-pages/LICENSE) license.

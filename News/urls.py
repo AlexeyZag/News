@@ -17,9 +17,14 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns
 from django.views.generic import TemplateView
-from rest_framework_swagger.views import get_swagger_view
-from django.conf.urls import url
-schema_view = get_swagger_view(title='Pastebin API')
+from rest_framework import routers
+from apps.news import views
+
+
+router = routers.DefaultRouter()
+router.register(r'news', views.PostViewset)
+router.register(r'comments', views.CommentViewset)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -33,5 +38,6 @@ urlpatterns = [
         template_name='swagger-ui.html',
         extra_context={'schema_url': 'openapi-schema'}
     ), name='swagger-ui'),
-    url(r'$', schema_view),
+    path('api', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     ]
